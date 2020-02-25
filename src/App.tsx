@@ -3,7 +3,6 @@ import './App.css';
 import Header from "./Header/Header";
 import Home from "./Home/Home";
 import About from "./About/About";
-import Game from "./TicTakToeComponent/tick-tak-toe";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
 			<Switch>
 				<Route path="/" exact component={Home} />
 				<Route path="/about" component={About} />
-				<Route path="/tic-tak-toe" component={Game} />
+				{/* <Route path="/tic-tak-toe" component={Game} /> */}
 			</Switch>
 		</div>
 	</Router>

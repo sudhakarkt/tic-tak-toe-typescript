@@ -1,0 +1,57 @@
+header {
+
+    display: flex;
+    align-items: center;
+
+    .site-logo {
+        background-color: #5b6367;
+        display: flex;
+        align-self: stretch;
+        align-items: center;
+        justify-self: center;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+        .App-logo {
+            animation: App-logo-spin infinite 20s linear;
+        }
+    }
+    
+    @keyframes App-logo-spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+}
+
+nav {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50px;
+    background-color: rgb(73,79,82);
+    color: #FFF;
+
+    .nav-links {
+
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #61dafb;
+    
+        a {
+            font-size: 15px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 400;
+            color: #FFF;
+        }
+    }
+}
+
